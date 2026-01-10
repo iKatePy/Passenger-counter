@@ -1,0 +1,17 @@
+# Параметры модели
+model_path: "yolo11l.pt"
+conf: 0.5
+iou: 0.5 
+tracker: "botsort.yaml"
+
+# Параметры подсчёта
+line_y: 120
+buffer: 40
+min_track_length: 3
+max_frames: 150000  # ограничение на длину видео для отладки
+
+# Пути
+data_dir: "./data"
+video_dir: "./data/videos"
+label_file: "./data/label.txt"
+output_csv: "./results.csv"

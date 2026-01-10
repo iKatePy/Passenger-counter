@@ -1,0 +1,12 @@
+passenger_counter/
+├── data/
+│   ├── videos/                 
+│   └── label.txt               
+├── src/
+│   ├── __init__.py
+│   ├── counter.py              
+│   ├── utils.py                
+│   └── evaluate.py             
+├── config.yaml                 
+├── run_evaluation.ipynb        
+└── results.csv                 
