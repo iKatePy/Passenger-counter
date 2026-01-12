@@ -37,6 +37,7 @@ pip install -r requirements.txt
 Запуск файла Launch.ipynb в среде jupyter notebook
 
 ## Требования 
+```text
 numpy==2.2.6
 opencv-python==4.12.0.88
 PyYAML==6.0.3
@@ -45,6 +46,6 @@ torchvision==0.24.1
 tqdm==4.67.1
 ultralytics==8.3.251
 *Для работы с GPU требуется CUDA-совместимая видеокарта и установленные драйверы NVIDIA. 
-
+```
 
 
