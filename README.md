@@ -28,7 +28,7 @@
 ├── config.yaml                 # Параметры модели и подсчёта
 ├── requirements.txt            # Зависимости
 └── Launch.ipynb                # Jupyter Notebook для запуска
-##
+```
 ## Установка и запуск
 
 pip install -r requirements.txt
