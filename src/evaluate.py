@@ -43,6 +43,8 @@ def run_evaluation(config_path="config.yaml"):
                 video_path,
                 model,
                 conf=cfg['conf'],
+                iou=cfg['iou'],
+                tracker=cfg['tracker'],
                 max_frames=cfg['max_frames']
             )
 
