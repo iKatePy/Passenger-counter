@@ -37,7 +37,7 @@ class BusCounter:
                 self.out_count += 1
             self.processed_tracks.add(track_id)
 
-    def process_video(self, video_path, model, conf=0.5, max_frames=500):
+    def process_video(self, video_path, model, conf=0.5, iou=0.5, tracker="botsort.yaml", max_frames=500):
         cap = cv2.VideoCapture(video_path)
         frame_count = 0
         self.in_count = 0
@@ -54,8 +54,8 @@ class BusCounter:
                 frame,
                 classes=[0],
                 conf=conf,
-                iou=0.5,
-                tracker="botsort.yaml",
+                iou=iou,
+                tracker=tracker,
                 persist=True,
                 verbose=False
             )
