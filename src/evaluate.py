@@ -38,7 +38,11 @@ def run_evaluation(config_path="config.yaml"):
             continue
 
         try:
-            counter = BusCounter(line_y=cfg['line_y'], buffer=cfg['buffer'])
+            counter = BusCounter(
+                line_y=cfg['line_y'], 
+                buffer=cfg['buffer'],
+                min_track_length=cfg['min_track_length']  # ← НОВЫЙ ПАРАМЕТР
+            )
             pred_in, pred_out = counter.process_video(
                 video_path,
                 model,
