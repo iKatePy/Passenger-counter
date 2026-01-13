@@ -47,5 +47,12 @@ tqdm==4.67.1
 ultralytics==8.3.251
 *Для работы с GPU требуется CUDA-совместимая видеокарта и установленные драйверы NVIDIA. 
 ```
+## Примеры скринов видео из датасета 
+<img width="668" height="545" alt="image" src="https://github.com/user-attachments/assets/57fe08d8-7132-4448-867e-8a470e2b4a6d" />
 
+<img width="405" height="293" alt="image" src="https://github.com/user-attachments/assets/38d4244f-c798-4cc4-8b18-f4a1f699ff87" />
 
+<img width="406" height="291" alt="image" src="https://github.com/user-attachments/assets/3ecf079a-3022-4738-87c3-7337720f6d28" />
+
+<img width="476" height="402" alt="image" src="https://github.com/user-attachments/assets/f17db094-e6f8-458f-bf1d-c4f5657457b8" />
+<img width="408" height="284" alt="image" src="https://github.com/user-attachments/assets/f3aca9de-bcd3-46f4-bc07-434bddb36107" />
