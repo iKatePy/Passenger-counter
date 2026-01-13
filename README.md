@@ -48,6 +48,8 @@ ultralytics==8.3.251
 *Для работы с GPU требуется CUDA-совместимая видеокарта и установленные драйверы NVIDIA. 
 ```
 ## Примеры скринов видео из датасета 
+
+В датасете присутствовали видео с одиночными пассажирами (uncrowd) толпой (crowd до 50 человек), с плохим освещением, с шумом (noisy)
 <img width="668" height="545" alt="image" src="https://github.com/user-attachments/assets/57fe08d8-7132-4448-867e-8a470e2b4a6d" />
 
 <img width="405" height="293" alt="image" src="https://github.com/user-attachments/assets/38d4244f-c798-4cc4-8b18-f4a1f699ff87" />
