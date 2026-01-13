@@ -67,9 +67,7 @@ class BusCounter:
                 for box, track_id in zip(boxes, track_ids):
                     x1, y1, x2, y2 = box
                     height = y2 - y1
-                    if height < 60 or height > 500:  # Исключим маленькие обюекты с ложными срабатываниями
-                        continue
-                    if height < 30 or height > 500:
+                    if height < 30 or height > 500:  # Исключим маленькие обюекты с ложными срабатываниями
                         continue
                     center_x = (x1 + x2) / 2
                     center_y = (y1 + y2) / 2
