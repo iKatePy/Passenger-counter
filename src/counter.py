@@ -3,9 +3,10 @@ import cv2
 from ultralytics import YOLO
 
 class BusCounter:
-    def __init__(self, line_y=120, buffer=40):
+    def __init__(self, line_y=120, buffer=40, min_track_length=3):
         self.line_y = line_y
         self.buffer = buffer
+        self.min_track_length = min_track_length
         self.in_count = 0
         self.out_count = 0
         self.track_history = defaultdict(lambda: deque(maxlen=90))
