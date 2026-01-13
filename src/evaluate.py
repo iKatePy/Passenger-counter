@@ -41,7 +41,7 @@ def run_evaluation(config_path="config.yaml"):
             counter = BusCounter(
                 line_y=cfg['line_y'], 
                 buffer=cfg['buffer'],
-                min_track_length=cfg['min_track_length']  # ← НОВЫЙ ПАРАМЕТР
+                min_track_length=cfg['min_track_length']  # Счетчик кадров для трекинга
             )
             pred_in, pred_out = counter.process_video(
                 video_path,
