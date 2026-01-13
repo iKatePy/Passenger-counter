@@ -12,7 +12,7 @@ class BusCounter:
         self.processed_tracks = set()
 
     def update_count(self, track_id, prev_positions):
-        if len(prev_positions) < 3:
+        if len(prev_positions) < self.min_track_length::
             return
         pos_list = list(prev_positions)
         y_vals = [pos[2] for pos in pos_list[-5:]]
