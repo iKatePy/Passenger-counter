@@ -72,5 +72,3 @@ ultralytics==8.3.251
 
 <img width="476" height="402" alt="image" src="https://github.com/user-attachments/assets/f17db094-e6f8-458f-bf1d-c4f5657457b8" />
 <img width="408" height="284" alt="image" src="https://github.com/user-attachments/assets/f3aca9de-bcd3-46f4-bc07-434bddb36107" />
-## Презентация
-https://docs.google.com/presentation/d/1OuHqYcCUH6xZkh-90wlfyzrCOvIj1zIN36CGi_pS5WQ/edit?usp=sharing
